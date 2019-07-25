@@ -1,0 +1,907 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+
+
+
+	<link rel="stylesheet" href="normalize.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+	<link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700&amp;subset=cyrillic" rel="stylesheet">
+	<link rel="stylesheet"  href="style.css">
+	<title>Udemy</title>
+</head>
+<body>
+
+	<!-- http://codeguide.co/ - code style -->
+
+	<!-- Встроенные средства SublimeText3 для выравнивания тегов
+		Ctrl+Shift+P → Indentation: Reindent Lines -->
+
+
+		<div class="header-region">
+			<div class="_container">
+				<div class="layout">
+					<div class="site-logo">
+						<img src="img/icon.svg" alt="" class="image">
+					</div>
+					<div class="site-name">
+						<h1 class="title"> Календарь </h1>
+						<p class="description"> Выберите цвет, добавьте месяц, кликайте по нужным датам. </p>
+					</div>
+					<div class="share-calendar">
+						<a href="#" class="main-button">Сохранить</a>
+						<div class="social-networks">
+							Соц сети
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="control-panel">
+			<div class="_container">
+				<div class="layout">
+					<div class="color-choise">
+						<p class="label">Активный цвет:</p>
+						<select name="" id="" class="dropdown">
+							<option value="red">Красный</option>
+							<option value="blue">Синий</option>
+							<option value="yellow">Желтый</option>
+						</select>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="calendar-list">
+			<div class="_container">
+				<div class="layout">
+					<div class="single-calendar">
+						<table class="calendar">
+							<caption class="monthname">
+								<i class="deletecalendar far fa-calendar-minus"></i>ЯНВАРЬ<i class="addcalendar far fa-calendar-plus"></i></caption>
+								<tr class="weekdays">
+									<th class="dayname">ПН</th>
+									<th class="dayname">ВТ</th>
+									<th class="dayname">СР</th>
+									<th class="dayname">ЧТ</th>
+									<th class="dayname">ПТ</th>
+									<th class="dayname">СБ</th>
+									<th class="dayname">ВС</th>
+								</tr>
+								<tr class="week">
+									<td class="daynumber"> </td>
+									<td class="daynumber">1</td>
+									<td class="daynumber">2</td>
+									<td class="daynumber">3</td>
+									<td class="daynumber">4</td>
+									<td class="daynumber">5</td>
+									<td class="daynumber">6</td>
+								</tr>
+								<tr class="week">
+									<td class="daynumber">7</td>
+									<td class="daynumber">8</td>
+									<td class="daynumber">9</td>
+									<td class="daynumber">10</td>
+									<td class="daynumber">11</td>
+									<td class="daynumber">12</td>
+									<td class="daynumber">13</td>
+								</tr>
+								<tr class="week">
+									<td class="daynumber">14</td>
+									<td class="daynumber">15</td>
+									<td class="daynumber">16</td>
+									<td class="daynumber">17</td>
+									<td class="daynumber">18</td>
+									<td class="daynumber">19</td>
+									<td class="daynumber">20</td>
+								</tr>
+								<tr class="week">
+									<td class="daynumber">21</td>
+									<td class="daynumber">22</td>
+									<td class="daynumber">23</td>
+									<td class="daynumber">24</td>
+									<td class="daynumber">25</td>
+									<td class="daynumber">26</td>
+									<td class="daynumber">27</td>
+								</tr>
+								<tr class="week">
+									<td class="daynumber">28</td>
+									<td class="daynumber">29</td>
+									<td class="daynumber">30</td>
+									<td class="daynumber">31</td>
+									<td class="daynumber"> </td>
+									<td class="daynumber"> </td>
+									<td class="daynumber"> </td>
+								</tr>
+								<tr class="week">
+									<td class="daynumber"> </td>
+									<td class="daynumber"> </td>
+									<td class="daynumber"> </td>
+									<td class="daynumber"> </td>
+									<td class="daynumber"> </td>
+									<td class="daynumber"> </td>
+									<td class="daynumber"> </td>
+								</tr>
+							</table>
+						</div>
+						<div class="single-calendar">
+							<table class="calendar">
+								<caption class="monthname">
+									<i class="deletecalendar far fa-calendar-minus"></i>
+									ФЕВРАЛЬ<i class="addcalendar far fa-calendar-plus"></i></caption>
+									<tr class="weekdays">
+										<th class="dayname">ПН</th>
+										<th class="dayname">ВТ</th>
+										<th class="dayname">СР</th>
+										<th class="dayname">ЧТ</th>
+										<th class="dayname">ПТ</th>
+										<th class="dayname">СБ</th>
+										<th class="dayname">ВС</th>
+									</tr>
+									<tr class="week">
+										<td class="daynumber"> </td>
+										<td class="daynumber"> </td>
+										<td class="daynumber"> </td>
+										<td class="daynumber"> </td>
+										<td class="daynumber">1</td>
+										<td class="daynumber">2</td>
+										<td class="daynumber">3</td>
+									</tr>
+									<tr class="week">
+										<td class="daynumber">4</td>
+										<td class="daynumber">5</td>
+										<td class="daynumber">6</td>
+										<td class="daynumber">7</td>
+										<td class="daynumber">8</td>
+										<td class="daynumber">9</td>
+										<td class="daynumber">10</td>
+									</tr>
+									<tr class="week">
+										<td class="daynumber">11</td>
+										<td class="daynumber">12</td>
+										<td class="daynumber">13</td>
+										<td class="daynumber">14</td>
+										<td class="daynumber">15</td>
+										<td class="daynumber">16</td>
+										<td class="daynumber">17</td>
+									</tr>
+									<tr class="week">
+										<td class="daynumber">18</td>
+										<td class="daynumber">19</td>
+										<td class="daynumber">20</td>
+										<td class="daynumber">21</td>
+										<td class="daynumber">22</td>
+										<td class="daynumber">23</td>
+										<td class="daynumber">24</td>
+									</tr>
+									<tr class="week">
+										<td class="daynumber">25</td>
+										<td class="daynumber">26</td>
+										<td class="daynumber">27</td>
+										<td class="daynumber">28</td>
+										<td class="daynumber"> </td>
+										<td class="daynumber"> </td>
+										<td class="daynumber"> </td>
+									</tr>
+									<tr class="week">
+										<td class="daynumber"> </td>
+										<td class="daynumber"> </td>
+										<td class="daynumber"> </td>
+										<td class="daynumber"> </td>
+										<td class="daynumber"> </td>
+										<td class="daynumber"> </td>
+										<td class="daynumber"> </td>
+									</tr>
+								</table>
+							</div>
+							<div class="single-calendar">
+								<table class="calendar">
+									<caption class="monthname"><i class="deletecalendar far fa-calendar-minus"></i>МАРТ<i class="addcalendar far fa-calendar-plus"></i></caption>
+									<tr class="weekdays">
+										<th class="dayname">ПН</th>
+										<th class="dayname">ВТ</th>
+										<th class="dayname">СР</th>
+										<th class="dayname">ЧТ</th>
+										<th class="dayname">ПТ</th>
+										<th class="dayname">СБ</th>
+										<th class="dayname">ВС</th>
+									</tr>
+									<tr class="week">
+										<td class="daynumber"> </td>
+										<td class="daynumber"> </td>
+										<td class="daynumber"> </td>
+										<td class="daynumber"> </td>
+										<td class="daynumber">1</td>
+										<td class="daynumber">2</td>
+										<td class="daynumber">3</td>
+									</tr>
+									<tr class="week">
+										<td class="daynumber">4</td>
+										<td class="daynumber">5</td>
+										<td class="daynumber">6</td>
+										<td class="daynumber">7</td>
+										<td class="daynumber">8</td>
+										<td class="daynumber">9</td>
+										<td class="daynumber">10</td>
+									</tr>
+									<tr class="week">
+										<td class="daynumber">11</td>
+										<td class="daynumber">12</td>
+										<td class="daynumber">13</td>
+										<td class="daynumber">14</td>
+										<td class="daynumber">15</td>
+										<td class="daynumber">16</td>
+										<td class="daynumber">17</td>
+									</tr>
+									<tr class="week">
+										<td class="daynumber">18</td>
+										<td class="daynumber">19</td>
+										<td class="daynumber">20</td>
+										<td class="daynumber">21</td>
+										<td class="daynumber">22</td>
+										<td class="daynumber">23</td>
+										<td class="daynumber">24</td>
+									</tr>
+									<tr class="week">
+										<td class="daynumber">25</td>
+										<td class="daynumber">26</td>
+										<td class="daynumber">27</td>
+										<td class="daynumber">28</td>
+										<td class="daynumber">29</td>
+										<td class="daynumber">30</td>
+										<td class="daynumber">31</td>
+									</tr>
+									<tr class="week">
+										<td class="daynumber"> </td>
+										<td class="daynumber"> </td>
+										<td class="daynumber"> </td>
+										<td class="daynumber"> </td>
+										<td class="daynumber"> </td>
+										<td class="daynumber"> </td>
+										<td class="daynumber"> </td>
+									</tr>
+								</table>
+							</div>
+							<div class="single-calendar">
+								<table class="calendar">
+									<caption class="monthname"><i class="deletecalendar far fa-calendar-minus"></i>АПРЕЛЬ<i class="addcalendar far fa-calendar-plus"></i></caption>
+									<tr class="weekdays">
+										<th class="dayname">ПН</th>
+										<th class="dayname">ВТ</th>
+										<th class="dayname">СР</th>
+										<th class="dayname">ЧТ</th>
+										<th class="dayname">ПТ</th>
+										<th class="dayname">СБ</th>
+										<th class="dayname">ВС</th>
+									</tr>
+									<tr class="week">
+										<td class="daynumber">1</td>
+										<td class="daynumber">2</td>
+										<td class="daynumber">3</td>
+										<td class="daynumber">4</td>
+										<td class="daynumber">5</td>
+										<td class="daynumber">6</td>
+										<td class="daynumber">7</td>
+									</tr>
+									<tr class="week">
+										<td class="daynumber">8</td>
+										<td class="daynumber">9</td>
+										<td class="daynumber">10</td>
+										<td class="daynumber">11</td>
+										<td class="daynumber">12</td>
+										<td class="daynumber">13</td>
+										<td class="daynumber">14</td>
+									</tr>
+									<tr class="week">
+										<td class="daynumber">15</td>
+										<td class="daynumber">16</td>
+										<td class="daynumber">17</td>
+										<td class="daynumber">18</td>
+										<td class="daynumber">19</td>
+										<td class="daynumber">20</td>
+										<td class="daynumber">21</td>
+									</tr>
+									<tr class="week">
+										<td class="daynumber">22</td>
+										<td class="daynumber">23</td>
+										<td class="daynumber">24</td>
+										<td class="daynumber">25</td>
+										<td class="daynumber">26</td>
+										<td class="daynumber">27</td>
+										<td class="daynumber">28</td>
+									</tr>
+									<tr class="week">
+										<td class="daynumber">29</td>
+										<td class="daynumber">30</td>
+										<td class="daynumber"> </td>
+										<td class="daynumber"> </td>
+										<td class="daynumber"> </td>
+										<td class="daynumber"> </td>
+										<td class="daynumber"> </td>
+									</tr>
+									<tr class="week">
+										<td class="daynumber"> </td>
+										<td class="daynumber"> </td>
+										<td class="daynumber"> </td>
+										<td class="daynumber"> </td>
+										<td class="daynumber"> </td>
+										<td class="daynumber"> </td>
+										<td class="daynumber"> </td>
+									</tr>
+								</table>
+							</div>
+							<div class="single-calendar">
+								<table class="calendar">
+									<caption class="monthname"><i class="deletecalendar far fa-calendar-minus"></i>МАЙ<i class="addcalendar far fa-calendar-plus"></i></caption>
+									<tr class="weekdays">
+										<th class="dayname">ПН</th>
+										<th class="dayname">ВТ</th>
+										<th class="dayname">СР</th>
+										<th class="dayname">ЧТ</th>
+										<th class="dayname">ПТ</th>
+										<th class="dayname">СБ</th>
+										<th class="dayname">ВС</th>
+									</tr>
+									<tr class="week">
+										<td class="daynumber"> </td>
+										<td class="daynumber"> </td>
+										<td class="daynumber"> </td>
+										<td class="daynumber"> </td>
+										<td class="daynumber">1</td>
+										<td class="daynumber">2</td>
+										<td class="daynumber">3</td>
+									</tr>
+									<tr class="week">
+										<td class="daynumber">1</td>
+										<td class="daynumber">2</td>
+										<td class="daynumber">3</td>
+										<td class="daynumber">4</td>
+										<td class="daynumber">5</td>
+										<td class="daynumber">6</td>
+										<td class="daynumber">7</td>
+									</tr>
+									<tr class="week">
+										<td class="daynumber">1</td>
+										<td class="daynumber">2</td>
+										<td class="daynumber">3</td>
+										<td class="daynumber">4</td>
+										<td class="daynumber">5</td>
+										<td class="daynumber">6</td>
+										<td class="daynumber">7</td>
+									</tr>
+									<tr class="week">
+										<td class="daynumber">1</td>
+										<td class="daynumber">2</td>
+										<td class="daynumber">3</td>
+										<td class="daynumber">4</td>
+										<td class="daynumber">5</td>
+										<td class="daynumber">6</td>
+										<td class="daynumber">7</td>
+									</tr>
+									<tr class="week">
+										<td class="daynumber">1</td>
+										<td class="daynumber">2</td>
+										<td class="daynumber">3</td>
+										<td class="daynumber">4</td>
+										<td class="daynumber">5</td>
+										<td class="daynumber">6</td>
+										<td class="daynumber">7</td>
+									</tr>
+									<tr class="week">
+										<td class="daynumber">1</td>
+										<td class="daynumber">2</td>
+										<td class="daynumber">3</td>
+										<td class="daynumber">4</td>
+										<td class="daynumber">5</td>
+										<td class="daynumber">6</td>
+										<td class="daynumber">7</td>
+									</tr>
+								</table>
+							</div>
+							<div class="single-calendar">
+								<table class="calendar">
+									<caption class="monthname"><i class="deletecalendar far fa-calendar-minus"></i>ИЮНЬ<i class="addcalendar far fa-calendar-plus"></i></caption>
+									<tr class="weekdays">
+										<th class="dayname">ПН</th>
+										<th class="dayname">ВТ</th>
+										<th class="dayname">СР</th>
+										<th class="dayname">ЧТ</th>
+										<th class="dayname">ПТ</th>
+										<th class="dayname">СБ</th>
+										<th class="dayname">ВС</th>
+									</tr>
+									<tr class="week">
+										<td class="daynumber"> </td>
+										<td class="daynumber"> </td>
+										<td class="daynumber"> </td>
+										<td class="daynumber"> </td>
+										<td class="daynumber">1</td>
+										<td class="daynumber">2</td>
+										<td class="daynumber">3</td>
+									</tr>
+									<tr class="week">
+										<td class="daynumber">1</td>
+										<td class="daynumber">2</td>
+										<td class="daynumber">3</td>
+										<td class="daynumber">4</td>
+										<td class="daynumber">5</td>
+										<td class="daynumber">6</td>
+										<td class="daynumber">7</td>
+									</tr>
+									<tr class="week">
+										<td class="daynumber">1</td>
+										<td class="daynumber">2</td>
+										<td class="daynumber">3</td>
+										<td class="daynumber">4</td>
+										<td class="daynumber">5</td>
+										<td class="daynumber">6</td>
+										<td class="daynumber">7</td>
+									</tr>
+									<tr class="week">
+										<td class="daynumber">1</td>
+										<td class="daynumber">2</td>
+										<td class="daynumber">3</td>
+										<td class="daynumber">4</td>
+										<td class="daynumber">5</td>
+										<td class="daynumber">6</td>
+										<td class="daynumber">7</td>
+									</tr>
+									<tr class="week">
+										<td class="daynumber">1</td>
+										<td class="daynumber">2</td>
+										<td class="daynumber">3</td>
+										<td class="daynumber">4</td>
+										<td class="daynumber">5</td>
+										<td class="daynumber">6</td>
+										<td class="daynumber">7</td>
+									</tr>
+									<tr class="week">
+										<td class="daynumber">1</td>
+										<td class="daynumber">2</td>
+										<td class="daynumber">3</td>
+										<td class="daynumber">4</td>
+										<td class="daynumber">5</td>
+										<td class="daynumber">6</td>
+										<td class="daynumber">7</td>
+									</tr>
+								</table>
+							</div>
+							<div class="single-calendar">
+								<table class="calendar">
+									<caption class="monthname"><i class="deletecalendar far fa-calendar-minus"></i>ИЮЛЬ<i class="addcalendar far fa-calendar-plus"></i></caption>
+									<tr class="weekdays">
+										<th class="dayname">ПН</th>
+										<th class="dayname">ВТ</th>
+										<th class="dayname">СР</th>
+										<th class="dayname">ЧТ</th>
+										<th class="dayname">ПТ</th>
+										<th class="dayname">СБ</th>
+										<th class="dayname">ВС</th>
+									</tr>
+									<tr class="week">
+										<td class="daynumber"> </td>
+										<td class="daynumber"> </td>
+										<td class="daynumber"> </td>
+										<td class="daynumber"> </td>
+										<td class="daynumber">1</td>
+										<td class="daynumber">2</td>
+										<td class="daynumber">3</td>
+									</tr>
+									<tr class="week">
+										<td class="daynumber">1</td>
+										<td class="daynumber">2</td>
+										<td class="daynumber">3</td>
+										<td class="daynumber">4</td>
+										<td class="daynumber">5</td>
+										<td class="daynumber">6</td>
+										<td class="daynumber">7</td>
+									</tr>
+									<tr class="week">
+										<td class="daynumber">1</td>
+										<td class="daynumber">2</td>
+										<td class="daynumber">3</td>
+										<td class="daynumber">4</td>
+										<td class="daynumber">5</td>
+										<td class="daynumber">6</td>
+										<td class="daynumber">7</td>
+									</tr>
+									<tr class="week">
+										<td class="daynumber">1</td>
+										<td class="daynumber">2</td>
+										<td class="daynumber">3</td>
+										<td class="daynumber">4</td>
+										<td class="daynumber">5</td>
+										<td class="daynumber">6</td>
+										<td class="daynumber">7</td>
+									</tr>
+									<tr class="week">
+										<td class="daynumber">1</td>
+										<td class="daynumber">2</td>
+										<td class="daynumber">3</td>
+										<td class="daynumber">4</td>
+										<td class="daynumber">5</td>
+										<td class="daynumber">6</td>
+										<td class="daynumber">7</td>
+									</tr>
+									<tr class="week">
+										<td class="daynumber">1</td>
+										<td class="daynumber">2</td>
+										<td class="daynumber">3</td>
+										<td class="daynumber">4</td>
+										<td class="daynumber">5</td>
+										<td class="daynumber">6</td>
+										<td class="daynumber">7</td>
+									</tr>
+								</table>
+							</div>
+							<div class="single-calendar">
+								<table class="calendar">
+									<caption class="monthname"><i class="deletecalendar far fa-calendar-minus"></i>АВГУСТ<i class="addcalendar far fa-calendar-plus"></i></caption>
+									<tr class="weekdays">
+										<th class="dayname">ПН</th>
+										<th class="dayname">ВТ</th>
+										<th class="dayname">СР</th>
+										<th class="dayname">ЧТ</th>
+										<th class="dayname">ПТ</th>
+										<th class="dayname">СБ</th>
+										<th class="dayname">ВС</th>
+									</tr>
+									<tr class="week">
+										<td class="daynumber"> </td>
+										<td class="daynumber"> </td>
+										<td class="daynumber"> </td>
+										<td class="daynumber"> </td>
+										<td class="daynumber">1</td>
+										<td class="daynumber">2</td>
+										<td class="daynumber">3</td>
+									</tr>
+									<tr class="week">
+										<td class="daynumber">1</td>
+										<td class="daynumber">2</td>
+										<td class="daynumber">3</td>
+										<td class="daynumber">4</td>
+										<td class="daynumber">5</td>
+										<td class="daynumber">6</td>
+										<td class="daynumber">7</td>
+									</tr>
+									<tr class="week">
+										<td class="daynumber">1</td>
+										<td class="daynumber">2</td>
+										<td class="daynumber">3</td>
+										<td class="daynumber">4</td>
+										<td class="daynumber">5</td>
+										<td class="daynumber">6</td>
+										<td class="daynumber">7</td>
+									</tr>
+									<tr class="week">
+										<td class="daynumber">1</td>
+										<td class="daynumber">2</td>
+										<td class="daynumber">3</td>
+										<td class="daynumber">4</td>
+										<td class="daynumber">5</td>
+										<td class="daynumber">6</td>
+										<td class="daynumber">7</td>
+									</tr>
+									<tr class="week">
+										<td class="daynumber">1</td>
+										<td class="daynumber">2</td>
+										<td class="daynumber">3</td>
+										<td class="daynumber">4</td>
+										<td class="daynumber">5</td>
+										<td class="daynumber">6</td>
+										<td class="daynumber">7</td>
+									</tr>
+									<tr class="week">
+										<td class="daynumber">1</td>
+										<td class="daynumber">2</td>
+										<td class="daynumber">3</td>
+										<td class="daynumber">4</td>
+										<td class="daynumber">5</td>
+										<td class="daynumber">6</td>
+										<td class="daynumber">7</td>
+									</tr>
+								</table>
+							</div>
+							<div class="single-calendar">
+								<table class="calendar">
+									<caption class="monthname"><i class="deletecalendar far fa-calendar-minus"></i>СЕНТЯБРЬ<i class="addcalendar far fa-calendar-plus"></i></caption>
+									<tr class="weekdays">
+										<th class="dayname">ПН</th>
+										<th class="dayname">ВТ</th>
+										<th class="dayname">СР</th>
+										<th class="dayname">ЧТ</th>
+										<th class="dayname">ПТ</th>
+										<th class="dayname">СБ</th>
+										<th class="dayname">ВС</th>
+									</tr>
+									<tr class="week">
+										<td class="daynumber"> </td>
+										<td class="daynumber"> </td>
+										<td class="daynumber"> </td>
+										<td class="daynumber"> </td>
+										<td class="daynumber">1</td>
+										<td class="daynumber">2</td>
+										<td class="daynumber">3</td>
+									</tr>
+									<tr class="week">
+										<td class="daynumber">1</td>
+										<td class="daynumber">2</td>
+										<td class="daynumber">3</td>
+										<td class="daynumber">4</td>
+										<td class="daynumber">5</td>
+										<td class="daynumber">6</td>
+										<td class="daynumber">7</td>
+									</tr>
+									<tr class="week">
+										<td class="daynumber">1</td>
+										<td class="daynumber">2</td>
+										<td class="daynumber">3</td>
+										<td class="daynumber">4</td>
+										<td class="daynumber">5</td>
+										<td class="daynumber">6</td>
+										<td class="daynumber">7</td>
+									</tr>
+									<tr class="week">
+										<td class="daynumber">1</td>
+										<td class="daynumber">2</td>
+										<td class="daynumber">3</td>
+										<td class="daynumber">4</td>
+										<td class="daynumber">5</td>
+										<td class="daynumber">6</td>
+										<td class="daynumber">7</td>
+									</tr>
+									<tr class="week">
+										<td class="daynumber">1</td>
+										<td class="daynumber">2</td>
+										<td class="daynumber">3</td>
+										<td class="daynumber">4</td>
+										<td class="daynumber">5</td>
+										<td class="daynumber">6</td>
+										<td class="daynumber">7</td>
+									</tr>
+									<tr class="week">
+										<td class="daynumber">1</td>
+										<td class="daynumber">2</td>
+										<td class="daynumber">3</td>
+										<td class="daynumber">4</td>
+										<td class="daynumber">5</td>
+										<td class="daynumber">6</td>
+										<td class="daynumber">7</td>
+									</tr>
+								</table>
+							</div>
+							<div class="single-calendar">
+								<table class="calendar">
+									<caption class="monthname"><i class="deletecalendar far fa-calendar-minus"></i>ОКТЯБРЬ<i class="addcalendar far fa-calendar-plus"></i></caption>
+									<tr class="weekdays">
+										<th class="dayname">ПН</th>
+										<th class="dayname">ВТ</th>
+										<th class="dayname">СР</th>
+										<th class="dayname">ЧТ</th>
+										<th class="dayname">ПТ</th>
+										<th class="dayname">СБ</th>
+										<th class="dayname">ВС</th>
+									</tr>
+									<tr class="week">
+										<td class="daynumber"> </td>
+										<td class="daynumber"> </td>
+										<td class="daynumber"> </td>
+										<td class="daynumber"> </td>
+										<td class="daynumber">1</td>
+										<td class="daynumber">2</td>
+										<td class="daynumber">3</td>
+									</tr>
+									<tr class="week">
+										<td class="daynumber">1</td>
+										<td class="daynumber">2</td>
+										<td class="daynumber">3</td>
+										<td class="daynumber">4</td>
+										<td class="daynumber">5</td>
+										<td class="daynumber">6</td>
+										<td class="daynumber">7</td>
+									</tr>
+									<tr class="week">
+										<td class="daynumber">1</td>
+										<td class="daynumber">2</td>
+										<td class="daynumber">3</td>
+										<td class="daynumber">4</td>
+										<td class="daynumber">5</td>
+										<td class="daynumber">6</td>
+										<td class="daynumber">7</td>
+									</tr>
+									<tr class="week">
+										<td class="daynumber">1</td>
+										<td class="daynumber">2</td>
+										<td class="daynumber">3</td>
+										<td class="daynumber">4</td>
+										<td class="daynumber">5</td>
+										<td class="daynumber">6</td>
+										<td class="daynumber">7</td>
+									</tr>
+									<tr class="week">
+										<td class="daynumber">1</td>
+										<td class="daynumber">2</td>
+										<td class="daynumber">3</td>
+										<td class="daynumber">4</td>
+										<td class="daynumber">5</td>
+										<td class="daynumber">6</td>
+										<td class="daynumber">7</td>
+									</tr>
+									<tr class="week">
+										<td class="daynumber">1</td>
+										<td class="daynumber">2</td>
+										<td class="daynumber">3</td>
+										<td class="daynumber">4</td>
+										<td class="daynumber">5</td>
+										<td class="daynumber">6</td>
+										<td class="daynumber">7</td>
+									</tr>
+								</table>
+							</div>
+							<div class="single-calendar">
+								<table class="calendar">
+									<caption class="monthname"><i class="deletecalendar far fa-calendar-minus"></i>НОЯБРЬ</caption>
+									<tr class="weekdays">
+										<th class="dayname">ПН</th>
+										<th class="dayname">ВТ</th>
+										<th class="dayname">СР</th>
+										<th class="dayname">ЧТ</th>
+										<th class="dayname">ПТ</th>
+										<th class="dayname">СБ</th>
+										<th class="dayname">ВС</th>
+									</tr>
+									<tr class="week">
+										<td class="daynumber"> </td>
+										<td class="daynumber"> </td>
+										<td class="daynumber"> </td>
+										<td class="daynumber"> </td>
+										<td class="daynumber">1</td>
+										<td class="daynumber">2</td>
+										<td class="daynumber">3</td>
+									</tr>
+									<tr class="week">
+										<td class="daynumber">1</td>
+										<td class="daynumber">2</td>
+										<td class="daynumber">3</td>
+										<td class="daynumber">4</td>
+										<td class="daynumber">5</td>
+										<td class="daynumber">6</td>
+										<td class="daynumber">7</td>
+									</tr>
+									<tr class="week">
+										<td class="daynumber">1</td>
+										<td class="daynumber">2</td>
+										<td class="daynumber">3</td>
+										<td class="daynumber">4</td>
+										<td class="daynumber">5</td>
+										<td class="daynumber">6</td>
+										<td class="daynumber">7</td>
+									</tr>
+									<tr class="week">
+										<td class="daynumber">1</td>
+										<td class="daynumber">2</td>
+										<td class="daynumber">3</td>
+										<td class="daynumber">4</td>
+										<td class="daynumber">5</td>
+										<td class="daynumber">6</td>
+										<td class="daynumber">7</td>
+									</tr>
+									<tr class="week">
+										<td class="daynumber">1</td>
+										<td class="daynumber">2</td>
+										<td class="daynumber">3</td>
+										<td class="daynumber">4</td>
+										<td class="daynumber">5</td>
+										<td class="daynumber">6</td>
+										<td class="daynumber">7</td>
+									</tr>
+									<tr class="week">
+										<td class="daynumber">1</td>
+										<td class="daynumber">2</td>
+										<td class="daynumber">3</td>
+										<td class="daynumber">4</td>
+										<td class="daynumber">5</td>
+										<td class="daynumber">6</td>
+										<td class="daynumber">7</td>
+									</tr>
+								</table>
+							</div>
+							<div class="single-calendar">
+								<table class="calendar">
+									<caption class="monthname"><i class="deletecalendar far fa-calendar-minus"></i>ДЕКАБРЬ</caption>
+									<tr class="weekdays">
+										<th class="dayname">ПН</th>
+										<th class="dayname">ВТ</th>
+										<th class="dayname">СР</th>
+										<th class="dayname">ЧТ</th>
+										<th class="dayname">ПТ</th>
+										<th class="dayname">СБ</th>
+										<th class="dayname">ВС</th>
+									</tr>
+									<tr class="week">
+										<td class="daynumber"> </td>
+										<td class="daynumber"> </td>
+										<td class="daynumber"> </td>
+										<td class="daynumber"> </td>
+										<td class="daynumber">1</td>
+										<td class="daynumber">2</td>
+										<td class="daynumber">3</td>
+									</tr>
+									<tr class="week">
+										<td class="daynumber">1</td>
+										<td class="daynumber">2</td>
+										<td class="daynumber">3</td>
+										<td class="daynumber">4</td>
+										<td class="daynumber">5</td>
+										<td class="daynumber">6</td>
+										<td class="daynumber">7</td>
+									</tr>
+									<tr class="week">
+										<td class="daynumber">1</td>
+										<td class="daynumber">2</td>
+										<td class="daynumber">3</td>
+										<td class="daynumber">4</td>
+										<td class="daynumber">5</td>
+										<td class="daynumber">6</td>
+										<td class="daynumber">7</td>
+									</tr>
+									<tr class="week">
+										<td class="daynumber">1</td>
+										<td class="daynumber">2</td>
+										<td class="daynumber">3</td>
+										<td class="daynumber">4</td>
+										<td class="daynumber">5</td>
+										<td class="daynumber">6</td>
+										<td class="daynumber">7</td>
+									</tr>
+									<tr class="week">
+										<td class="daynumber">1</td>
+										<td class="daynumber">2</td>
+										<td class="daynumber">3</td>
+										<td class="daynumber">4</td>
+										<td class="daynumber">5</td>
+										<td class="daynumber">6</td>
+										<td class="daynumber">7</td>
+									</tr>
+									<tr class="week">
+										<td class="daynumber">1</td>
+										<td class="daynumber">2</td>
+										<td class="daynumber">3</td>
+										<td class="daynumber">4</td>
+										<td class="daynumber">5</td>
+										<td class="daynumber">6</td>
+										<td class="daynumber">7</td>
+									</tr>
+								</table>
+							</div>			
+						</div>
+					</div>
+				</div>
+				<div class="register-region">
+					<div class="_container">
+						<div class="layout">
+							<form class="form-normal" action="index.html" method="POST">
+								<input type="text" name="name" id="name" placeholder="Имя">
+								<input type="email" name="email" placeholder="E-mail">
+								<input type="password" name="password" placeholder="Пароль">
+								<select name="age" id="">
+									<option value="0">-Возраст-</option>
+									<option value="10">0-10</option>
+									<option value="20">11-20</option>
+									<option value="30">21-30</option>
+									<option value="40">31-40</option>
+								</select>
+								<label class="checkbox"><input type="checkbox"> Подписаться </label>
+								<input class="submit main-button" type="submit" value="Зарегистрироваться">
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+		</body>
+		</html>

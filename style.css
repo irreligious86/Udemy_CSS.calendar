@@ -1,0 +1,146 @@
+body {
+  font-family: sans-serif; }
+
+.header-region {
+  background-color: #fef0d5;
+  margin-bottom: 30px;
+  padding: 0 10px; }
+  .header-region .layout {
+    display: flex;
+    align-items: center; }
+    @media (max-width: 650px) {
+      .header-region .layout {
+        flex-wrap: wrap;
+        text-align: center; } }
+  .header-region .site-name {
+    margin: 11px 0 0 20px; }
+    @media (max-width: 650px) {
+      .header-region .site-name {
+        margin-left: 0 auto; } }
+  .header-region .site-logo {
+    margin-left: 5px; }
+    @media (max-width: 650px) {
+      .header-region .site-logo {
+        margin: 0 auto; } }
+  .header-region .share-calendar {
+    margin-left: auto; }
+    @media (max-width: 650px) {
+      .header-region .share-calendar {
+        margin: 0 auto; } }
+    .header-region .share-calendar .social-networks {
+      margin-top: 10px; }
+
+.site-name {
+  font-family: "Roboto Condensed", sans-serif;
+  color: #235c55; }
+  .site-name .title {
+    font-weight: bold;
+    font-size: 32px;
+    margin: 0 0 5px 0; }
+  .site-name .description {
+    font-size: 16px;
+    margin-top: 0; }
+
+.main-button {
+  background: #d81e5d;
+  color: #ffe6de;
+  font-family: sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  text-decoration: none;
+  padding: 5px 11px;
+  border-radius: 14px; }
+
+.site-logo .image {
+  width: 99px; }
+  @media (max-width: 650px) {
+    .site-logo .image {
+      width: 50px; } }
+
+.color-choise .label {
+  font-weight: bold;
+  margin-bottom: 3px; }
+.color-choise .dropdown {
+  padding: 5px;
+  border: 1px solid #dbdbdb;
+  border-right: 5px; }
+
+.register-region {
+  background-color: grey;
+  background-image: url("img/wood-bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin: 50px 0;
+  padding: 15px; }
+  .register-region .form-normal > * {
+    display: block;
+    margin: 6px auto;
+    width: 250px;
+    /*border: 1px solid black;*/
+    box-shadow: 1px 1px 1px 1px rgba(192, 192, 192, 0.4); }
+  .register-region .checkbox {
+    background-color: rgba(250, 250, 250, 0.5); }
+
+.form-normal .checkbox {
+  cursor: pointer; }
+
+._container {
+  max-width: 960px;
+  margin: 0 auto; }
+
+.single-calendar {
+  color: #525053;
+  margin-top: 50px; }
+  .single-calendar .deletecalendar,
+  .single-calendar .addcalendar {
+    /*visibility: hidden;*/
+    opacity: 0;
+    cursor: pointer; }
+    .single-calendar .deletecalendar:hover,
+    .single-calendar .addcalendar:hover {
+      color: #d81e5d; }
+  .single-calendar:hover .deletecalendar, .single-calendar:hover .addcalendar {
+    /*visibility: visible;*/
+    opacity: 1;
+    font-size: 15px;
+    padding: 0  15px;
+    vertical-align: middle; }
+  .single-calendar .calendar {
+    border: 1px solid #235c55;
+    border-radius: 10px;
+    padding: 15px 10px;
+    width: 270px; }
+  .single-calendar .monthname {
+    text-align: center;
+    font-family: "Roboto Condensed", sans-serif;
+    margin-bottom: 10px;
+    font-size: 30px; }
+  .single-calendar .dayname {
+    font-weight: normal;
+    text-align: center;
+    padding-bottom: 7px; }
+  .single-calendar .daynumber {
+    padding: 15px 5px 15px 5px;
+    text-align: center; }
+  .single-calendar .daynumber:last-child, .single-calendar .dayname:last-child {
+    color: #d81e5d; }
+  .single-calendar .daynumber:hover {
+    background-color: #ee87aa;
+    border-radius: 5px;
+    cursor: pointer; }
+  .single-calendar .weekdays {
+    color: #d1d0d2; }
+
+.control-panel {
+  padding: 0 10px; }
+
+.calendar-list {
+  padding: 0 10px; }
+
+.calendar-list .layout {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around; }
+
+/*# sourceMappingURL=style.css.map */
